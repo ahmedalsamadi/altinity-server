@@ -1,0 +1,4 @@
+{
+     "mongoConnectionString": "mongodb+srv://ahmed:Os%2F737394226@cluster0.0ylua8t.mongodb.net/Altinity?retryWrites=true&w=majority&appName=Cluster0",
+"jwtSecret": "jwtSecretToken"
+}
