@@ -4,7 +4,10 @@ const connectDB = require("./config/db");
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: ["https://ahmedalsamadi.github.io", "http://localhost:3000"],
+  credentials: true
+}));
 
 app.use("/api/users", require("./routes/users"));
 
